@@ -15,3 +15,30 @@ end
 
 g = Game.new()
 g.display
+
+class Player
+  def initialize(name)
+    @name = name
+end
+
+def get_name
+  puts "Player, enter your name"
+  return (get_s.chomp)
+end
+
+# Create board
+# Create player1
+# Create player2
+
+# Show board
+# Ask player1 for move
+# if cell is not empty > try again
+# update board
+#   checkWin?
+
+# Show board
+# Ask player2 for move
+# if cell is not empty > try again
+# update board
+#   checkWin?
+  
